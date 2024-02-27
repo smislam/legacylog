@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Legacy Log - We still do logging</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+    <body>
+        <h1 th:text="${message}" />
+        <h3>We have some messages for you.</h3>
+        <ul>
+            <li> <a href="/get?userId=99">Do a GET by clicking.</a> </li>
+            <li> For POST and BODY, please use <a href="http://localhost:8080/swagger-ui/index.html"> OpenAPI </a> link.  It's simpler &#x1F61C;.</li>
+        </ul>
+    </body>
+</html>
